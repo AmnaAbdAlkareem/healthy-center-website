@@ -1,0 +1,219 @@
+/*Roboto Font*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+html ,body{
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+}
+/*   Reset   */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+/*   Utility classes   */
+.container{
+    max-width: 80%;
+    margin: auto;
+}
+.bg-dark{
+   background-color: #252a34;
+   color: #fff;
+}
+.bg-light{
+    background-color: #eaeaea;
+    color: #252a34;
+}
+.text-primary{
+color: #ff2e63;
+}
+.bg-primary{background-color: #08d9d6;color: #fff;}
+.text-center {text-align: center;}
+.l-heading{
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+.m-heading {
+    font-size: 2rem;
+}
+.py-1{padding: 1.5rem 0;}
+.p-1{padding: 1.5rem;}
+.btn{
+    background-color: #08d9d6;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+}
+.btn:hover{
+    background-color: #ff2e63;
+}
+.btn-dark{background-color: #252a34;color: #fff;}
+.box-shadow {
+    box-shadow: 0 0 2px #252a34;
+}
+
+.lead{
+    font-size: 1.6rem;
+}
+/*    start navbar    */
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}
+#navbar .logo img{
+    border-radius: 30%;
+    width: 100px;
+}
+#navbar ul{
+    list-style: none;
+    display: flex;
+    text-transform: capitalize;
+}
+#navbar ul a{
+    color: #fff;
+    padding: 1rem;
+}
+#navbar ul a:hover{
+    background-color: #08d9d6;
+}
+/*   Start Parts    */
+#parts {
+    background: #252a34 url(../image/part1.jpg) no-repeat center center/cover;
+    height: 100vh;
+    color: #fff;
+}
+#parts .parts-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+/*   overlay   */
+background-color: rgba(0,0, 0,0.8);
+padding: 1rem;
+}
+
+/*   About Section    */
+#about .about-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 1.5rem;
+}
+#about .about-content p,
+#about .about-content img{
+    flex: 1;
+}
+#about .about-content img{
+    width: 50%;
+    margin-left: 1.5rem;
+    border: 5px solid #fff;
+}
+/*   CTA Section    */
+#cta{
+    background: url(../image/cta.jpg) no-repeat center center/cover;
+    color: #fff;
+}
+#cta .cta-content{
+    min-height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0,0, 0,0.6);
+    padding: 6rem;
+}
+#cta .cta-content p{padding-bottom: 2rem;}
+/*   programs Section    */
+#programs{
+    color: #252a34;
+}
+#programs .boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#programs .boxes .box{
+    flex: 1;
+    padding: 1rem;
+}
+#programs .boxes .box img{
+    width: 140px;
+    height: 140px;
+    padding: 0.5rem;
+    border-radius: 100%;
+}
+/*     Start Trainers    */
+#trainers .trainer-boxes{
+    display: flex;
+    justify-content: center;
+
+}
+#trainers .trainer-boxes .trainer-box {
+    background-color: #fff;
+    flex: 1;
+    border-radius: 5px;
+    margin: 1rem;
+}
+#trainers .trainer-boxes .trainer-box img{
+    display: block;
+    width: 300px;
+    height: 350px;
+    margin-bottom: 10px;
+}
+#trainers .trainer-boxes .trainer-box ul{
+    display: flex;
+    list-style: none;
+}
+#trainers .trainer-boxes .trainer-box ul a{
+    margin-right: 10px;
+    color: #252a34;
+}
+#trainers .trainer-boxes .trainer-box ul a:hover{
+    color: #ff2e63;
+}
+
+/*   contact section      */
+#contact{
+    display: flex;
+r;
+}
+#contact .contact-us,
+#contact video{
+flex: 1;
+}
+#contact .contact-us input,
+#contact .contact-us textarea{
+width: 100%;
+padding: 0.75rem;
+border: none;
+margin-bottom: 1rem;
+outline: none;
+}
+#contact .contact-us .input{
+    display: flex;
+}
+#contact .contact-us .input .name{
+ margin-right: 10px;
+}
+#contact .ved{
+    background-color: #08d9d6;
+
+}
+#contact video{
+width: 600px;
+position: relative;
+top: 120px;
+height: 310px;
+background-color: #08d9d6;
+}
